@@ -1,0 +1,81 @@
+---------------------------------------+-----------------------------------------------------------------------------
+Method                                 | Action                                                                      
+---------------------------------------+-----------------------------------------------------------------------------
+GET|HEAD                               | App\Http\Controllers\Api\AkaunPenggunaController@index                      
+POST                                   | App\Http\Controllers\Api\AkaunPenggunaController@store                      
+GET|HEAD                               | App\Http\Controllers\Api\AkaunPenggunaController@create                     
+GET|HEAD                               | App\Http\Controllers\Api\AkaunPenggunaController@show                       
+PUT|PATCH                              | App\Http\Controllers\Api\AkaunPenggunaController@update                     
+DELETE                                 | App\Http\Controllers\Api\AkaunPenggunaController@destroy                    
+GET|HEAD                               | App\Http\Controllers\Api\AkaunPenggunaController@edit                       
+                                       |                                                                             
+POST                                   | App\Http\Controllers\Api\BillingController@bilSalinan                       
+POST                                   | App\Http\Controllers\Api\BillingController@pendingPayments                  
+POST                                   | App\Http\Controllers\Api\BillingController@prevBills                        
+POST                                   | App\Http\Controllers\Api\BillingController@currentBill                      
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\Api\JajahanController@index                            
+GET|HEAD                               | App\Http\Controllers\Api\JajahanController@show                             
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\Api\Auth\MobileUserAuthController@getAuthenticatedUser 
+PUT                                    | App\Http\Controllers\Api\Auth\MobileUserAuthController@update               
+POST                                   | App\Http\Controllers\Api\Auth\MobileUserAuthController@login                
+POST                                   | App\Http\Controllers\Api\Auth\MobileUserAuthController@logout               
+GET|HEAD                               | App\Http\Controllers\Api\Auth\MobileUserAuthController@sendResetLinkEmail   
+POST                                   | App\Http\Controllers\Api\Auth\MobileUserAuthController@sendResetLinkEmail   
+POST                                   | App\Http\Controllers\Api\Auth\MobileUserAuthController@register             
+GET|HEAD                               | App\Http\Controllers\Api\Auth\MobileUserAuthController@getAuthenticatedUser 
+                                       |                                                                             
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\Api\SaluranPembayaranController@index                  
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\Api\TukangPaipController@index                         
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\Auth\ConfirmablePasswordController@show                
+POST                                   | App\Http\Controllers\Auth\ConfirmablePasswordController@store               
+POST                                   | App\Http\Controllers\Auth\EmailVerificationNotificationController@store     
+GET|HEAD                               | App\Http\Controllers\Auth\PasswordResetLinkController@create                
+POST                                   | App\Http\Controllers\Auth\PasswordResetLinkController@store                 
+GET|HEAD                               | App\Http\Controllers\Auth\AuthenticatedSessionController@create             
+POST                                   | App\Http\Controllers\Auth\AuthenticatedSessionController@store              
+POST                                   | App\Http\Controllers\Auth\AuthenticatedSessionController@destroy            
+GET|HEAD                               | App\Http\Controllers\Auth\RegisteredUserController@create                   
+POST                                   | App\Http\Controllers\Auth\RegisteredUserController@store                    
+POST                                   | App\Http\Controllers\Auth\NewPasswordController@store                       
+GET|HEAD                               | App\Http\Controllers\Auth\NewPasswordController@create                      
+GET|HEAD                               | App\Http\Controllers\Auth\EmailVerificationPromptController@__invoke        
+GET|HEAD                               | App\Http\Controllers\Auth\VerifyEmailController@__invoke                    
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\MobileUserController@index                             
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\NotisGangguanController@index                          
+POST                                   | App\Http\Controllers\NotisGangguanController@store                          
+GET|HEAD                               | App\Http\Controllers\NotisGangguanController@create                         
+GET|HEAD                               | App\Http\Controllers\NotisGangguanController@show                           
+PUT|PATCH                              | App\Http\Controllers\NotisGangguanController@update                         
+DELETE                                 | App\Http\Controllers\NotisGangguanController@destroy                        
+GET|HEAD                               | App\Http\Controllers\NotisGangguanController@edit                           
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\SaluranPembayaranController@index                      
+POST                                   | App\Http\Controllers\SaluranPembayaranController@store                      
+GET|HEAD                               | App\Http\Controllers\SaluranPembayaranController@create                     
+GET|HEAD                               | App\Http\Controllers\SaluranPembayaranController@show                       
+PUT|PATCH                              | App\Http\Controllers\SaluranPembayaranController@update                     
+DELETE                                 | App\Http\Controllers\SaluranPembayaranController@destroy                    
+GET|HEAD                               | App\Http\Controllers\SaluranPembayaranController@edit                       
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\TukangPaipController@index                             
+POST                                   | App\Http\Controllers\TukangPaipController@store                             
+GET|HEAD                               | App\Http\Controllers\TukangPaipController@create                            
+GET|HEAD                               | App\Http\Controllers\TukangPaipController@show                              
+PUT|PATCH                              | App\Http\Controllers\TukangPaipController@update                            
+DELETE                                 | App\Http\Controllers\TukangPaipController@destroy                           
+GET|HEAD                               | App\Http\Controllers\TukangPaipController@edit                              
+                                       |                                                                             
+GET|HEAD                               | App\Http\Controllers\UserController@index                                   
+POST                                   | App\Http\Controllers\UserController@store                                   
+GET|HEAD                               | App\Http\Controllers\UserController@create                                  
+GET|HEAD                               | App\Http\Controllers\UserController@show                                    
+PUT|PATCH                              | App\Http\Controllers\UserController@update                                  
+DELETE                                 | App\Http\Controllers\UserController@destroy                                 
+GET|HEAD                               | App\Http\Controllers\UserController@edit                                    

@@ -1,0 +1,2 @@
+1. query to populate table notis_gangguan
+ insert into notis_gangguan (not_punca, not_jaj_id, not_lokasi, not_mula, not_tamat, not_kawasan_terlibat, not_maklumat_tambahan, status, created_at, updated_at) select not_punca, not_jaj_id, not_lokasi, date_format(str_to_date(not_mula, '%d/%m/%Y %h:%i%p'), '%Y-%m-%d %h:%i %p'), date_format(str_to_date(not_tamat, '%d/%m/%Y %h:%i%p'), '%Y-%m-%d %h:%i %p'), not_kawasan_terlibat, not_maklumat_tambahan, status, created_at, updated_at  from myaksb.notis_gangguan;
